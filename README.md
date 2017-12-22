@@ -1,2 +1,2 @@
 # talkback-backend
-Backend in Scala for the Talkback app
+Check out the-scala-chapter team for discussions around the upcoming stack!
