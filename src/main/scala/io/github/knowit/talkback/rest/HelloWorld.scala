@@ -1,9 +1,8 @@
-package io.github.knowit.talkback
+package io.github.knowit.talkback.rest
 
 import io.circe._
 import org.http4s._
 import org.http4s.circe._
-import org.http4s.server._
 import org.http4s.dsl._
 
 object HelloWorld {

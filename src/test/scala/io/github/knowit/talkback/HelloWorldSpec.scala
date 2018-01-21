@@ -1,5 +1,6 @@
 package io.github.knowit.talkback
 
+import io.github.knowit.talkback.rest.HelloWorld
 import org.http4s.dsl._
 import org.http4s.{Method, Request, Response, Status}
 import org.specs2.matcher.MatchResult
