@@ -1,8 +1,8 @@
 package io.github.knowit.talkback.util
 
-import org.log4s.getLogger
+import org.log4s.{Logger, getLogger}
 
 
 trait Logging {
-  val log = getLogger.logger
+  val log: Logger = getLogger
 }

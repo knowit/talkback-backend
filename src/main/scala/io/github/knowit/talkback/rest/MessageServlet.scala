@@ -9,7 +9,7 @@ import org.http4s.dsl._
 object MessageServlet extends Logging {
   val service = HttpService {
     case GET -> Root / "msg" / message =>
-      log.debug(s"MessageServlet - GET message: <<<$message>>>")
+      log.debug(s"GET message: <<<$message>>>")
       Ok(Json.obj("message" -> Json.fromString(s"Message from app: ${message}")))
   }
 }

@@ -9,7 +9,7 @@ import org.http4s.dsl._
 object HelloWorld extends Logging {
   val service = HttpService {
     case GET -> Root / "hello" / name =>
-      log.debug(s"HelloWorld - GET message: <<<$name>>>")
+      log.debug(s"GET message: <<<$name>>>")
       Ok(Json.obj("message" -> Json.fromString(s"Hello, ${name}")))
   }
 }
